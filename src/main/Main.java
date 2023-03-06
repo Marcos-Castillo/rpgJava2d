@@ -11,6 +11,7 @@ video 2
  */
 public class Main {
     public static void main(String[] args) {
+        System.setProperty("prism.order", "j2d");
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
@@ -29,3 +30,4 @@ public class Main {
                 
                 }
 }
+//video3 7:13
